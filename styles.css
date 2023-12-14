@@ -1,8 +1,33 @@
+@font-face {
+    font-family: "Silkscreen";
+    src: url(fonts/Silkscreen.ttf);
+  }
+
 body{
 
-    background-color: aquamarine;
+    background-color: #e4dbed;
     text-align: center;
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Silkscreen";
+    margin: 0px 0px;
 
+}
+
+.main{
+    width: 70vw;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.window {
+    display: block;
+    top: 30px;
+    left: 30px;
+  }
+
+footer{
+    padding: 10px;
 }
