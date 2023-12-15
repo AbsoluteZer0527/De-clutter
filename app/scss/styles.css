@@ -1,15 +1,11 @@
 html {
   font-size: 100px;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  height: 100%;
 }
 
 @font-face {
   font-family: "Silkscreen";
   src: url(fonts/Silkscreen.ttf);
-  
 }
 body {
   position: sticky;
@@ -18,32 +14,41 @@ body {
   text-align: center;
   font-size: large;
   font-family: "Silkscreen";
+  color: #535886;
 }
 
 .container {
-  width: 50%;
+  width: 900px;
+  height: 640px;
   margin: auto;
-  position: relative;
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
 }
 
 .background {
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 
 .window {
   position: absolute;
-  background-size: cover;
-    top: 34%;
-    left: 43%;
-    transform: translate(-50%, -50%);
-    width: 55%;
-    height: 80%;
+  top: 223px;
+  left: 390px;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 700px;
+  opacity: 0.2;
+}
+
+.window:hover {
+  filter: brightness(80%);
+}
+
+.window:active {
+  filter: brightness(60%);
 }
 
 footer {
-  padding: 5vw;
+  padding: 20px;
 }/*# sourceMappingURL=styles.css.map */
