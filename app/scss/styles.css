@@ -1,0 +1,49 @@
+html {
+  font-size: 100px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Silkscreen";
+  src: url(fonts/Silkscreen.ttf);
+  
+}
+body {
+  position: sticky;
+  width: 100%;
+  background-color: #e4dbed;
+  text-align: center;
+  font-size: large;
+  font-family: "Silkscreen";
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.window {
+  position: absolute;
+  background-size: cover;
+    top: 34%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    height: 80%;
+}
+
+footer {
+  padding: 5vw;
+}/*# sourceMappingURL=styles.css.map */

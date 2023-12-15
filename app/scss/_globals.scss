@@ -1,0 +1,46 @@
+html{
+    font-size: 100px;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: "Silkscreen";
+    src: url(fonts/Silkscreen.ttf);
+  }
+
+body{
+    position: sticky;
+    width: 100%;
+    background-color: #e4dbed;
+    text-align: center;
+    font-size: large;
+    font-family: "Silkscreen";
+    color:#535886;
+
+}
+
+.container{
+    width: 900px;
+    height: 640Spx;
+    margin: auto;
+}
+
+.background{
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.window {
+    position: absolute;
+    top: 29%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    width: 56%;
+    height: 80%;
+  }
+
+footer{
+    padding: 5vw;
+}
