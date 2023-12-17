@@ -49,6 +49,61 @@ body {
   filter: brightness(60%);
 }
 
+.backButton {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  opacity: 100px;
+}
+
+.Button:hover {
+  filter: brightness(80%);
+}
+
+.Button:active {
+  transform: scale(0.96);
+}
+
+.backWords {
+  position: absolute;
+  top: -20px;
+  left: 60px;
+}
+
+.wordBubble {
+  position: absolute;
+  top: 450px;
+  left: 30px;
+  background-color: white;
+  padding: 10px;
+}
+
+.textContainer {
+  display: inline-block;
+}
+
+.text {
+  font-size: 15px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s, steps(10);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+.chat-output {
+  position: absolute;
+  background-color: white;
+  font-size: 15px;
+}
+
 footer {
   padding: 20px;
 }/*# sourceMappingURL=styles.css.map */

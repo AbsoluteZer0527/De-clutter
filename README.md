@@ -1,2 +1,3 @@
-
-Still testing but I think it works so far.
+Debugging: 
+ -Chatgpt not working, key updated in the objective
+ -backbutton not working yet;
