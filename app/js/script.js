@@ -3,10 +3,4 @@ document.getElementById('window').addEventListener('click', function() {
     window.location.href = 'quest.html';
 });
 
-function goBack() {
-    window.location.href = 'index.html';
-}
-
-// Add click event listener to the SVG button
-document.getElementById('Button').addEventListener('click', goBack);
 

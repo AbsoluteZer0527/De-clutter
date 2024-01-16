@@ -385,53 +385,8 @@
                 <path stroke="#8fd6de" d="M45 60h1" />
                 <path stroke="#b9ffd4" d="M13 105h1M34 105h1" />
                 </svg>
- 
-       <div class="backButton">
-            <svg class="Button" xmlns="http://www.w3.org/2000/svg" viewBox="0 -0.5 13 11" shape-rendering="crispEdges">
-            <metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</metadata>
-            <path stroke="#8093d1" d="M7 0h2M6 1h1M4 2h2M3 3h1M8 3h1M1 4h2M6 4h3M0 5h1M4 5h9M1 6h12M3 7h10M4 8h5M6 9h3M7 10h2" />
-            <path stroke="#edcee7" d="M7 1h2M6 2h3M4 3h4M9 3h4M3 4h3M9 4h4M1 5h3" />
-            </svg>
-            <h1 class="backWords">back</h1>
-       </div>
-            <div class="wordBubble">
-                <div class="textContainer">
-                    <p class="text">Hello World</p>
-                </div>
-            </div>
+
         </div>
-        <body>
-            <div id="chat-container">
-              <div id="chat-output"></div>
-              <input type="text" id="user-input" placeholder="Type your message...">
-              <button onclick="sendMessage()">Send</button>
-            </div>
-          
-            <script>
-              async function sendMessage() {
-                const userInput = document.getElementById('user-input').value;
-                const chatOutput = document.getElementById('chat-output');
-          
-                console.log('Sending request to backend...');
-                // Display user message
-                chatOutput.innerHTML += `<p>User: ${userInput}</p>`;
-          
-                // Send user message to the backend
-                const response = await fetch('http://localhost:3000/api/chat', {
-                  method: 'POST',
-                  headers: {
-                    'Content-Type': 'application/json',
-                  },
-                  body: JSON.stringify({ message: userInput }),
-                });
-          
-                const data = await response.json();
-          
-                // Display ChatGPT's response
-                chatOutput.innerHTML += `<p>ChatGPT: ${data.reply}</p>`;
-              }
-            </script>
-    </div>
 
     <footer>    <a href="contact.html">contact</a>
         <p>WIC team 15</p>
