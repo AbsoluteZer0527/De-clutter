@@ -13,18 +13,18 @@ _Garden_: When the user receives the seed, they are able to plant the seed down 
 ## Mechanics
 _MOST IMPORTANT_AI generated task:
 Implementation Priorty: 
-1. develop a program such that it takes in the user input, process with additional instruction, and output a response within the given format:
-   Examples: User given key words of task: learning c programming language chatgpt takes the keyword with our instruction: "(User input). Create a very specific list of 5 resource and task I can complete step by step learning coding from start and include to-dos. Task only, no explanation needed." chatgpt: give out 5 tasks. Programs: take the 5 tasks in and add them to the to do list on the side. Front end: angel conversation, accept buttom, animation of package the tasks into a flower seed, proceed to garden page.
-   difficulties encountered: 
-     i) How to connect front-end and store user input?
-     ii) How to implement AI into our program.
-     iii) How to process AI answer out.
-2. Advance AI: More choices such as refresh/generate again, more choices and allow users to select.
-3. ULTIMATE IDEAL DELUSIONAL DREAM AI:
-     First lead the user to input in the format of "I want to..."
-   -> feed it to chatgpt with additional instruction:  (User input) Can you generate 5 specific suggestions that I can select from to narrow down my goal and find a place to start. began each suggestions with the phase "I want to".
-   -> chatgpt generate 5 more detailed I want to statement
-   -> User can either: 1. select one or multiple task 2. declutter one specific task more! 3. edit output task
-   -> Choice 2 will make chatgpt take in the "I want to" statment it generate and add on the instruction again. It keeps looping into small tasks (and maybe limit the iteration into MAX 5-6?), and users can select all the tasks they want to accomplish.
-   -> Choice 3 simply allows user changes the output, and then can be apply to choice 1 and 2 again. EX: user: I want to learn how to cook. AI de-cluttered: 1. I want to learn how to cook mexican food. User edit: 1. I want to learn how to cook chinese food. User can then declutter it again or select it.
-   -> output all the small tasks and pack them into a flower seed.
+1. develop a program such that it takes in the user input, process with additional instruction, and output a response within the given format:  
+   Examples: User given key words of task: learning c programming language chatgpt takes the keyword with our instruction: "(User input). Create a very specific list of 5 resource and task I can complete step by step learning coding from start and include to-dos. Task only, no explanation needed." chatgpt: give out 5 tasks. Programs: take the 5 tasks in and add them to the to do list on the side. Front end: angel conversation, accept buttom, animation of package the tasks into a flower seed, proceed to garden page.  
+   Difficulties encountered:  
+     i) How to connect front-end and store user input?  
+     ii) How to implement AI into our program.  
+     iii) How to process AI answer out.  
+2. Advance AI: More choices such as refresh/generate again, more choices and allow users to select.  
+3. ULTIMATE IDEAL DELUSIONAL DREAM AI:  
+     First lead the user to input in the format of "I want to..."  
+   -> feed it to chatgpt with additional instruction:  (User input) Can you generate 5 specific suggestions that I can select from to narrow down my goal and find a place to start. began each suggestions with the phase "I want to".  
+   -> chatgpt generate 5 more detailed I want to statement  
+   -> User can either: 1. select one or multiple task 2. declutter one specific task more! 3. edit output task  
+   -> Choice 2 will make chatgpt take in the "I want to" statment it generate and add on the instruction again. It keeps looping into small tasks (and maybe limit the iteration into MAX 5-6?), and users can select all the tasks they want to accomplish.  
+   -> Choice 3 simply allows user changes the output, and then can be apply to choice 1 and 2 again. EX: user: I want to learn how to cook. AI de-cluttered: 1. I want to learn how to cook mexican food. User edit: 1. I want to learn how to cook chinese food. User can then declutter it again or select it.  
+   -> output all the small tasks and pack them into a flower seed.  
