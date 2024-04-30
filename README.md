@@ -1,7 +1,7 @@
 # De-clutter
 De-clutter is a gamified task manager website that breaks down complex actions into bite-sized step-by-step checklist activities through AI technology.
 
-Development Space: Github, possibly Replit?
+Development Space: Github, possibly Replit?  
 Link To the [Figma Mind Map](https://www.figma.com/file/n2JZvW3xQfoJZ1J62v7Mj9/WIC-Project-De-clutter?type=whiteboard&node-id=0%3A1&t=nx7OU1K0JQjuVVy2-1)
 
 ## Webpages
@@ -12,9 +12,11 @@ _Conversation with the Angel:_ After clicking on the Garden Scene, users can tal
 _Garden_: When the user receives the seed, they are able to plant the seed down in order to "start the quest". Every time the user marks a checkbox, it will water the flower and it will grow up after a certain percentage. The user can start multiple quests at the same time while completing the task at a specific time and will receive a bonus at the end.
 
 ## Mechanics
-_MOST IMPORTANT_AI generated task:
-Implementation Priorty: 
-0. Bad ending: Can't figure out AI, let user input everything and stomp on the whole purpose of this website. 🤡
+_MOST IMPORTANT_AI generated task:_ 
+
+Implementation Priorty:  
+
+0. Bad ending: Can't figure out AI, let user input everything and stomp on the whole purpose of this website. 🤡  
 1. develop a program such that it takes in the user input, process with additional instruction, and output a response within the given format:  
    Examples: User given key words of task: learning c programming language chatgpt takes the keyword with our instruction: "(User input). Create a very specific list of 5 resource and task I can complete step by step learning coding from start and include to-dos. Task only, no explanation needed." chatgpt: give out 5 tasks. Programs: take the 5 tasks in and add them to the to do list on the side. Front end: angel conversation, accept buttom, animation of package the tasks into a flower seed, proceed to garden page.  
    Difficulties encountered:  
