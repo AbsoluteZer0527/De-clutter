@@ -14,6 +14,7 @@ _Garden_: When the user receives the seed, they are able to plant the seed down 
 ## Mechanics
 _MOST IMPORTANT_AI generated task:
 Implementation Priorty: 
+0. Bad ending: Can't figure out AI, let user input everything and stomp on the whole purpose of this website. 🤡
 1. develop a program such that it takes in the user input, process with additional instruction, and output a response within the given format:  
    Examples: User given key words of task: learning c programming language chatgpt takes the keyword with our instruction: "(User input). Create a very specific list of 5 resource and task I can complete step by step learning coding from start and include to-dos. Task only, no explanation needed." chatgpt: give out 5 tasks. Programs: take the 5 tasks in and add them to the to do list on the side. Front end: angel conversation, accept buttom, animation of package the tasks into a flower seed, proceed to garden page.  
    Difficulties encountered:  
